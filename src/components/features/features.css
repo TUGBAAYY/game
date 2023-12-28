@@ -1,0 +1,122 @@
+/* features.css */
+.features{
+    background-image: url(../../media/povobg.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: rgba(0, 0, 0, 0.5); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .modal-container.modal-open {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .modal-content {
+    background: black;
+    color: white;
+    width: 400px;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    padding: 15px;
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  .titleModal{
+    color: darkred;
+  }
+  
+  .modal-container.modal-open .modal-content {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+  
+  
+  svg {
+    /* font-weight: 200px !important; */
+    /* width: 40px !important; */
+    justify-content: center !important;
+}
+  .cardTitle{
+    padding-top: 1rem ;
+    padding-bottom: 1rem;
+  }
+
+  .cardTitle button {
+    display: flex;
+    flex-direction: column;
+    align-items: end ;
+    text-align: end;
+  }
+  /* .row{
+    flex-shrink: 0;
+    margin-top: var(--bs-gutter-y);
+    max-width: 100%;
+    padding-left: calc(var(--bs-gutter-x)*.5);
+    padding-right: calc(var(--bs-gutter-x)*.5);
+    width: 100%;
+    
+  } */
+
+  .row .cardTitle{
+    justify-content: space-between !important;
+    
+  }
+  .text-center{
+    text-align: center !important;
+  }
+  
+  .card_image {
+    width: 70px !important;
+    height: 70px !important; /* İsteğe bağlı: Resmin boyutunu ayarlayın */
+    object-fit: cover; /* Resmin oranlarını korumak için */
+  }
+  
+  .itempara {
+    text-align: left;
+    margin-top: 10px; /* İsteğe bağlı: Metin ile resim arasındaki boşluğu ayarlayın */
+  }
+  
+ .btnBtnn  {
+/* text-align: center !important; */
+display: flex;
+background: none;
+color: #ffc107;
+font-weight: bolder;
+font-size: 20px;
+border: none;
+}
+.buttonClose .btnBtnn:hover{
+    color: #ffc107 !important;
+}
+
+.cardWidht .cardTitle{
+justify-content: space-between;
+padding: 1rem;
+margin: 0;
+width: 100%;
+min-height: 400px;
+
+
+}
+
+
+

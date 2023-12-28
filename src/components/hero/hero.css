@@ -1,0 +1,69 @@
+.herobg{
+    background-image: url(../../media/povohero.png);
+    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* height: 100vh; */
+    color: white;
+}
+.carousel,
+.input-group {
+  z-index: 900; /* Navbar'ın z-index değerinden daha düşük bir değer */
+  position: relative;
+}
+
+.herobg .herobtn {
+    background-color: #fff!important;
+    border: none!important;
+    color: #c62828!important;
+    padding: 8px 40px;
+}
+
+.herobg .whitebtn {
+    background-color: none!important;
+    border-color: #fff!important;
+    color: #fff!important;
+}
+
+.herobg a svg{
+    color: white;
+    margin-right: .9rem;
+}
+
+.herobg a svg:hover{
+    color: #c62828;
+    transition: 0.3s ease-in-out;
+}
+
+.whitebtn:hover{
+background-color: #c62828 !important;
+/* border: #c62828; */
+border-color: #c62828 !important;
+transition: 0.3s  ease-in-out;
+}
+
+.herobg .token1, .herobg .whitebtn:hover {
+    background-color: #c62828!important;
+    color: #fff!important;
+    border-color: darkred;
+}
+
+.herobg .token2 {
+    background-color: #2d061b!important;
+    color: #fff!important;
+    border-color: darkred;
+}
+
+
+.yahoobg{
+    background-color: black;
+}
+
+.yahoobg .yahoo{
+width: 280px;
+}
+
+.yahoobg .bezinga{
+    width: 280px;
+}

@@ -1,0 +1,57 @@
+.tokenomicsbg{
+    background-image: url("../../media/staking.jpg");
+    background-repeat: no-repeat;
+    padding-top: 70px!important;
+    padding-bottom: 70px!important;
+    background-size: cover;
+    color: white;
+}
+.token{
+    color: #ffc107;
+  }
+  .supply{
+    color: #26a0d3;
+  }
+  .povo{
+    color: #8b0000;
+  }
+  .presale{
+    background-color:rgb(23 108 165);
+    padding: 2px 100px;
+   
+  }
+
+  .staking{
+    background-color:#ffc107;
+    padding: 2px 60px;
+  }
+
+  .liquidity{
+    background-color: rgb(91 63 144);
+    padding: 2px 50px;
+
+  }
+  .advisor{
+    background-color: rgb(200 30 80);
+    padding: 2px 25px;
+
+  }
+
+  .airdrop{
+    background-color: rgb(235 56 116);
+    padding: 2px 20px;
+  }
+
+  .gaming{
+    background-color: rgb(47 172 206);
+    padding: 2px 17px;
+  }
+
+  .team{
+    background-color: rgb(245 140 139);
+    padding: 2px 10px;
+  }
+
+ .tokenomicsbg img{
+    width: auto !important;
+  }

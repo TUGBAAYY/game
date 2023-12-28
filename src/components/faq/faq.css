@@ -1,0 +1,30 @@
+.faqbg{
+    background-image: url(../../media/povobg.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c {
+    flex-direction: column;
+    margin-bottom: 14px;
+    padding: 12px;
+    position: relative;
+    
+}
+
+.styles_faq-row-wrapper__3vA1D{
+    border-radius: 20px;
+    
+}
+
+.styles_faq-row-wrapper__3vA1D .styles_faq-row__2YF3c {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 0px solid;
+    
+}
+h1{
+    color: white;
+}
+

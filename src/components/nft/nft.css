@@ -1,0 +1,13 @@
+.nftbg{
+    background-image: url(../../media/nft.png);
+    background-size: 100% 100%;
+    color: white;
+    background-size: cover;
+}
+
+.nftbg button{
+    background-color: #c62828!important;
+    border: none!important;
+    color: #fff!important;
+    padding: 10px 50px!important;
+}

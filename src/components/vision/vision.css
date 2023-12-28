@@ -1,0 +1,8 @@
+.visionbg{
+    background-image: url(../../media/vision.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding-bottom: 70px!important;
+    padding-top: 70px!important;
+}

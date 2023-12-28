@@ -1,0 +1,14 @@
+.benefitbg{
+    background-image: url(../../media/nft.png);
+    background-size: 100% 100%;
+    background-size: cover;
+    color: white;
+}
+
+.benefitpara{
+    margin-top: 4rem;
+}
+
+/* .benefitbg img{
+    margin-bottom: 2rem !important;
+} */

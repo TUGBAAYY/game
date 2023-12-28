@@ -1,0 +1,20 @@
+.missionbg {
+    background-image: url(../../media/staking.jpg);
+    background-size: cover;
+    padding-bottom: 160px;
+    padding-top: 120px;
+    background-repeat: no-repeat;
+}
+
+.missionbg img{
+width: 400px !important;
+}
+
+
+.povo{
+    color: darkred;
+}
+
+.missionbg p{
+    color: white;
+}

@@ -1,0 +1,27 @@
+.stakingbg{
+    background-image: url(../../media/staking.jpg);
+    background-size: 100% 100%;
+    height: auto;
+}
+
+.stakingbg img{
+    width: auto;
+}
+
+.stakingPlatform{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.stakingbg .povo {
+    color: darkred;
+}
+
+.stakingbg span {
+    color: white;
+}
+
+
+.stakingbg ul li {
+    color: white;
+}
